@@ -1,0 +1,249 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+header {
+    background: rgb(214,143,80);
+    background: linear-gradient(45deg, rgba(214,143,80,1) 0%, rgba(44,59,122,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: px;
+    align-items: center;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    height: 75px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.deskripsilogo {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F6F4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 135%;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    left: 50%;
+    bottom: -1px;
+    width: 0;
+    background: white;
+    transition: width 0.3s ease 0.07s, left 0.3s ease 0.07s;
+}
+
+a:hover::after {
+    width: 100%;
+    left: 0;
+
+}
+
+
+.btn-cta {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 135%;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F5F6F4;
+    background-color: #4472CA;
+    border-radius: 7.5px;
+    font-size: 100%;
+    cursor: pointer;
+    transition: all 0.s ease 0.07s;
+}
+
+.btn-cta:hover {
+    background-color: #F5F6F4;
+    color: #4472CA;
+}
+
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background-color: #2C3B7A;
+}
+
+.welcomepage1 {
+    margin-top: 350px;
+    margin-left: 70px;
+    text-decoration: none;
+    color: #F5F6F4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 490%;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    line-height: 90px;
+}
+
+.slogan {
+    margin-left: 70px;
+    text-decoration: none;
+    color: #F5F6F4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 294%;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    line-height: 90px;
+}
